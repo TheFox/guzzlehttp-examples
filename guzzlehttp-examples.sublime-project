@@ -1,0 +1,10 @@
+{
+	"folders":[
+		{
+			"path": ".",
+			"name": "GuzzleHTTP Examples",
+			"folder_exclude_patterns": [ "vendorx" ],
+			"file_exclude_patterns": [ ]
+		}
+	]
+}

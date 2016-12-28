@@ -1,0 +1,4 @@
+composer.phar
+v*/composer.lock
+v*/vendor
+README.html
