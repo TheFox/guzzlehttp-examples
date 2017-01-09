@@ -8,7 +8,7 @@ use GuzzleHttp\Exception\RequestException as GuzzleRequestException;
 $client = new GuzzleClient();
 
 print 'send request ... ';
-try {
+try{
 	// $response = $client->request('GET', 'https://httpbin.org/get');
 	$response = $client->request('GET', 'https://httpbin.org/status/404');
 }

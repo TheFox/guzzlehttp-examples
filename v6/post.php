@@ -8,7 +8,7 @@ use GuzzleHttp\Exception\RequestException as GuzzleRequestException;
 $client = new GuzzleClient();
 
 print 'send request ... ';
-try {
+try{
     $response = $client->request('POST', 'https://httpbin.org/post', array(
     	// 'body' => 'raw data',
     	'form_params' => array('x' => 'y'),
