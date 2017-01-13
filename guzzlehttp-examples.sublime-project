@@ -3,7 +3,7 @@
 		{
 			"path": ".",
 			"name": "GuzzleHTTP Examples",
-			"folder_exclude_patterns": [ "vendorx" ],
+			"folder_exclude_patterns": [ "vendor" ],
 			"file_exclude_patterns": [ ]
 		}
 	]
